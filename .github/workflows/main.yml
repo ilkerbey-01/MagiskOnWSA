@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       arch:
-        description: "Build arch"
+        description: "Build arch "
         required: true
         default: "x64 & arm64"
         type: choice
